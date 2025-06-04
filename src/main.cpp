@@ -1,7 +1,7 @@
-#include <Arduino.h>
-#include <DHT.h>
-#include <Wire.h>
-#include <LiquidCrystal_I2C.h>
+#include <Arduino.h>            // Arduino 기본 라이브러리. 핀 제어, 시리얼 통신 등 제공
+#include <DHT.h>                // DHT 시리즈 센서를 위한 라이브러리
+#include <Wire.h>               // I2C 통신을 위한 라이브러리. LCD는 I2C 방식으로 제어
+#include <LiquidCrystal_I2C.h>  // I2C 방식 LCD를 제어하기 위한 라이브러리
 
 // DHT11 설정
 #define DHTPIN D4         // WeMos D1 Mini의 D4 (GPIO2)
